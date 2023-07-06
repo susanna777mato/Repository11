@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgraund {
+  background-color: hsl(0, 0%, 81%);
+}
+
+.item-1 {
+  background-color: hsl(263, 55%, 52%);
+  grid-column: span 2;
+  position: relative;
+}
+
+.item-2 {
+  background-color: hsl(217, 19%, 35%);
+}
+.item-3 {
+  background-color: hsl(210, 46%, 95%);
+  grid-row: span 2;
+}
+.item-4 {
+  background-color: hsl(210, 46%, 95%);
+}
+.item-5 {
+  background-color: hsl(219, 29%, 14%);
+  grid-column: span 2;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(2, 280px);
+  gap: 30px;
+  place-content: center;
+}
+
+.daniel {
+  display: grid;
+  grid-template-rows: repeat(2, 50px);
+  grid-template-columns: repeat(2, 100px);
+  margin-top: 15px;
+  height: 60px;
+}
+
+.img-daniel {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+.loren {
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.jhonatan {
+  display: grid;
+  grid-template-rows: repeat(2, 50px);
+  grid-template-columns: repeat(2, 95px);
+  margin-top: 15px;
+  height: 60px;
+}
+
+.about-jon {
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.img-jonathan {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.span {
+  font-size: 13px;
+}
+
+.kira {
+  display: grid;
+  grid-template-rows: repeat(2, 50px);
+  grid-template-columns: repeat(2, 95px);
+  margin-top: 15px;
+  height: 60px;
+}
+
+.about-kira {
+  padding-left: 40px;
+  padding-right: 18px;
+}
+
+.img-kira {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.info-kira {
+  font-size: 13px;
+}
+
+.jeanette {
+  display: grid;
+  grid-template-rows: repeat(2, 50px);
+  grid-template-columns: repeat(2, 95px);
+  margin-top: 15px;
+  height: 60px;
+}
+
+.about-jeanette {
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.info-jeanette {
+  font-size: 13px;
+}
+
+.img-jeanette {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.Patrick {
+  display: grid;
+  grid-template-rows: repeat(2, 50px);
+  grid-template-columns: repeat(2, 110px);
+  margin-top: 15px;
+  height: 60px;
+}
+
+.about-patrick {
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.img-patrick {
+  border-radius: 100px;
+  width: 45px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.text-patrick {
+  font-size: small;
+  color: hsl(217, 19%, 35%);
+}
+
+.svg {
+  position: absolute;
+  left: 73%;
+  top: 3%;
+  background-color: hsl(263, 55%, 52%);
+  opacity: 0.3;
+}
